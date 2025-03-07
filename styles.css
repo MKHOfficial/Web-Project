@@ -1,0 +1,94 @@
+/* External CSS */
+body {
+    font-family: Arial, sans-serif;
+  margin: auto;
+    padding: 0;
+    /* line-height: 1.6; */
+    background-color: #f4f4f4;
+}
+.logo{
+    color: white;
+}
+
+#header {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    top: 0;
+    box-sizing: border-box;
+
+}
+
+.site-title {
+    font-size: 2.5em;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    text-align:right;
+  
+}
+
+.navbar ul li {
+    display:inline;
+    margin-right: 20px;
+    height:30px;
+    box-sizing: border-box;
+}
+.navbar a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    text-align: right;f
+}
+.navbar{
+    background-color: blue;
+    box-
+    
+}
+.btn:hover{
+    text-decoration: none;
+    color:  blue;
+}
+
+.products {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 10px;
+}
+
+.product {
+    background-color:azure;
+     border: 1px dashed black;
+    border-radius: 5px;
+    /* margin: 10px; */
+    padding: 10px;
+    width: 200px;
+    min-height: 200px;
+    max-height: 500px;
+    position: relative;
+}
+
+
+.add-to-cart{
+    background-color:  orange;
+}
+.add-to-cart:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.add-to-cart:active{
+    background-color: #4cae4c;
+}
+img{
+    height: 200px;
+}
